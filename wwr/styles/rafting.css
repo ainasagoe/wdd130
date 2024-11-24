@@ -1,0 +1,58 @@
+:root {
+  --primary-color: rgb(14, 113, 165);
+  --secondary-color: rgb(58, 66, 69);
+  --accent1-color: rgb(255, 255, 255);
+  --accent2-color: rgb(109, 123, 130);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ROBOTO", serif;
+  color: var(--primary-color);
+}
+
+body {
+  font-family: "crimson text", "serif";
+  font-style: italic;
+  font-weight: 100;
+  /* src: url(https://fonts.google.com/share?selection.family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900)
+    format("truetype"); */
+}
+.menu {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+/* :root {
+  max-width: 90%;
+} */
+.hero {
+  position: relative;
+}
+h1 {
+  position: absolute;
+}
+.firstp {
+  float: left;
+}
+article {
+  position: absolute;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.layimag {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+.article img {
+  float: right;
+}
+article {
+  background-color: var(--accent2-color);
+}
