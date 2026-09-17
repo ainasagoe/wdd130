@@ -1,7 +1,7 @@
 :root {
     --primary-color: blue;
     --secondary-color: white;
-    --accent1-color: #e9c464;
+    --accent1-color: black;
     --heading-font: "times new roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
 }
@@ -42,6 +42,11 @@ article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 24px;
+    height: auto;
+}
+
 .hero {
     position: relative;
 }
@@ -72,4 +77,10 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+
 }
