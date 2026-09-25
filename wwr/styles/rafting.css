@@ -1,8 +1,8 @@
 :root {
     --primary-color: rgb(0, 0, 255);
-    /* Standardized to clean RGB values */
+
     --secondary-color: rgb(255, 255, 255);
-    /* Standardized to clean RGB values */
+
     --accent1-color: rgb(12, 11, 10);
     --heading-font: "times new roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
@@ -115,7 +115,7 @@ nav a:active {
 .hero-top-section,
 .hero-history-section {
     border: 2px solid rgb(0, 0, 0);
-    padding: 20px;
+    padding: 24px;
     background-color: var(--secondary-color);
 }
 
@@ -128,7 +128,9 @@ nav a:active {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px 15px;
     border-radius: 4px;
-
+    text-align: left;
+    margin-bottom: 12px;
+    width: 100%;
 }
 
 .hero h2 {
