@@ -35,17 +35,13 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
-    /* Fixed columns to fit logo + navigation */
     border-bottom: 1px solid rgb(0, 0, 0);
-    /* Fixed syntax error (removed commas) */
     background-color: rgb(240, 248, 255);
-    /* Converted named color to clean RGB format */
     max-width: 100%;
     align-items: center;
     margin: 1rem auto;
 }
 
-/* Consolidated nav layout rules to prevent repeated rules error */
 nav {
     grid-column: 2;
     justify-self: end;
@@ -95,16 +91,13 @@ nav a:active {
     text-decoration: none;
 }
 
-/* Consolidated .socialmedia img properties to eliminate duplicates */
 .socialmedia img {
     width: 30px;
     height: auto;
 }
 
-/* --- HERO OVERLAY POSITIONING (Fixed Course Audit Failure) --- */
 .hero {
     position: relative;
-    /* Position relative set to house absolute children */
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -119,7 +112,6 @@ nav a:active {
     background-color: var(--secondary-color);
 }
 
-/* Absolute positioning target properties per project manual constraints */
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -171,17 +163,14 @@ nav a:active {
     padding: 0;
 }
 
-/* --- FLOATING CONTAINER IMAGE SETUP (Fixed Course Audit Failure) --- */
 .hero article {
     position: relative;
     width: 100%;
     overflow: hidden;
-    /* Clear floating elements cleanly */
 }
 
 .hero article img {
     float: right;
-    /* Enforced structural text wrap requirement */
     margin-left: 15px;
     width: 150px;
     height: auto;
