@@ -1,7 +1,18 @@
 :root {
-    --color: darkblue;
+    --color: rgb(58, 58, 148);
     --dark-color: black;
-    --light-color: gray;
+    --light-color: rgb(232, 131, 131);
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Ariel, sans-serfi;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header,
@@ -17,9 +28,10 @@ footer,
     align-items: center;
 }
 
-.main {
+main {
     grid-column: 3/4;
     margin: 1rem;
+    padding-left: 170px
 }
 
 * {
@@ -44,7 +56,7 @@ nav a {
     display: block;
     padding: 1rem;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
 }
 
@@ -64,8 +76,6 @@ p {
     padding: 0px;
 }
 
-main {}
-
 main img {
     width: 150px;
     height: auto;
@@ -73,8 +83,9 @@ main img {
     padding: 1px;
     box-shadow: 0 0 30px gray;
     position: absolute;
-    top: 270px;
+    top: 240px;
     left: 950px;
+    margin-left: 100px;
 }
 
 aside {
@@ -105,4 +116,9 @@ footer {
     padding: 1rem;
     background-color: var(--light-color);
     color: var(--dark-color);
+}
+
+.box a {
+    text-decoration: none;
+    list-style: none;
 }
